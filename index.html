@@ -26,14 +26,16 @@
       text-shadow: 0 2px 6px rgba(0,0,0,0.4);
     }
     img.icon {
-      width: 5%;
-      max-width: 80px;
+      width: 80px;
+      max-width: 20vw;
+      height: auto;
       margin: 0 auto 15px;
       display: block;
     }
     img.store-badges {
-      width: 35%;
-      max-width: 300px;
+      width: 300px;
+      max-width: 80vw;
+      height: auto;
       margin-top: 10px;
       border-radius: 10px;
     }
@@ -68,6 +70,15 @@
       margin-left: auto;
       margin-right: auto;
     }
+
+    @media (max-width: 400px) {
+      img.icon {
+        width: 60px;
+      }
+      img.store-badges {
+        width: 90vw;
+      }
+    }
   </style>
 </head>
 <body>
@@ -97,5 +108,6 @@
   <div class="contact">
     <p>© 2025 Stoopi</p>
   </div>
+  
 </body>
 </html>
