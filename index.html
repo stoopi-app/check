@@ -21,29 +21,35 @@
     }
     h1 {
       font-size: 2.8rem;
-      margin-bottom: 0.3em;
+      margin: 20px 0 10px;
       font-weight: 700;
       text-shadow: 0 2px 6px rgba(0,0,0,0.4);
     }
     img.icon {
       width: 5%;
       max-width: 80px;
-      margin: 0 auto 15px;
+      margin: 0 auto 20px;
       display: block;
     }
     img.store-badges {
       width: 35%;
       max-width: 300px;
-      margin-top: 10px;
+      margin: 20px auto;
       border-radius: 10px;
+      display: block;
+    }
+    .app-info,
+    .support-section,
+    .download-section {
+      margin-top: 30px;
+      max-width: 650px;
+      margin-left: auto;
+      margin-right: auto;
     }
     p {
       font-size: 1.2rem;
-      margin: 0.5em 0;
+      margin: 12px 0;
       line-height: 1.5;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
       text-shadow: 0 1px 3px rgba(0,0,0,0.3);
     }
     a {
@@ -57,22 +63,16 @@
       text-decoration: underline;
     }
     .contact {
-      margin-top: 3em;
+      margin-top: 40px;
       font-size: 0.9rem;
       opacity: 0.8;
       text-shadow: none;
-    }
-    .app-info {
-      margin-top: 2em;
-      max-width: 650px;
-      margin-left: auto;
-      margin-right: auto;
     }
   </style>
 </head>
 <body>
 
-  <!-- Icon above the title -->
+  <!-- Logo Icon -->
   <img src="icon.png" alt="Stoopi Logo" class="icon" />
 
   <h1>Stoopi App Support</h1>
@@ -80,20 +80,20 @@
   <div class="app-info">
     <p><strong>About Stoopi:</strong> Stoopi is a community-powered app that helps you find items left out around your city instantly. Browse real-time posts, set alerts, and help others by sharing what you find.</p>
   </div>
-  
-  <p>If you have any questions, issues, or feedback, please get in touch with us.</p>
-  
-  <p><strong>Help Center:</strong> <a href="https://stoopi.app/contactus" target="_blank" rel="noopener noreferrer">https://stoopi.app/contactus</a></p>
-  <p><strong>Email Support:</strong> <a href="mailto:admin@stoopi.app">admin@stoopi.app</a></p>
 
-  <!-- Download text -->
-  <p style="margin-top: 2em; font-size: 1.3rem;">Download <strong>Stoopi</strong> on the App Store & Play Store</p>
+  <div class="support-section">
+    <p>If you have any questions, issues, or feedback, please get in touch with us.</p>
+    <p><strong>Help Center:</strong> <a href="https://stoopi.app/contactus" target="_blank" rel="noopener noreferrer">https://stoopi.app/contactus</a></p>
+    <p><strong>Email Support:</strong> <a href="mailto:admin@stoopi.app">admin@stoopi.app</a></p>
+  </div>
 
-  <!-- Store badges image -->
-  <a href="https://download.stoopi.app" target="_blank" rel="noopener noreferrer">
-    <img src="apps.png" alt="Download Stoopi on App Stores" class="store-badges" />
-  </a>
-  
+  <div class="download-section">
+    <p style="font-size: 1.3rem;">Download <strong>Stoopi</strong> on the App Store & Play Store</p>
+    <a href="https://download.stoopi.app" target="_blank" rel="noopener noreferrer">
+      <img src="apps.png" alt="Download Stoopi on App Stores" class="store-badges" />
+    </a>
+  </div>
+
   <div class="contact">
     <p>© 2025 Stoopi</p>
   </div>
