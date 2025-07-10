@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stoopi Developer Site</title>
+</head>
+<body>
+  <h1>Welcome to Stoopi</h1>
+  <p>This is the developer site for the Stoopi app.</p>
+</body>
+</html>
